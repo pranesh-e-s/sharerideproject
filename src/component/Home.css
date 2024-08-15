@@ -1,0 +1,278 @@
+/* Home.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-left .logoImage {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-right ul li {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.navbar-right ul li.active {
+  color: #ff8000;
+}
+
+.navbar-right ul li:hover {
+  color: #ff8000;
+}
+
+.auth-buttons {
+  display: flex;
+}
+
+.auth-buttons .action-button {
+  background-color: #ff8000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.auth-buttons .action-button:hover {
+  background-color: white;
+  color: #ff8000;
+}
+
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-left: 20px; /* Adjust spacing as needed */
+}
+
+.profile-image {
+  width: 40px; /* Adjust size as needed */
+  height: 40px; /* Adjust size as needed */
+  border-radius: 50%; /* Makes the profile image circular */
+  margin-right: 10px;
+}
+
+.profile-name {
+  font-size: 14px;
+}
+.main-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: #fff7e6; /* Replace with the background color from the screenshot */
+  width: 80%;
+  margin: 0 auto;
+}
+
+.text-section {
+  max-width: 50%;
+}
+
+.main-title {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.main-description {
+  font-size: 18px;
+  color: #555;
+  margin: 20px 0;
+  line-height: 1.6; /* Add line-height for more space between lines */
+}
+
+.button-section {
+  display: flex;
+  margin-left: 100px;
+  border-radius: 70px;
+  gap: 20px;
+}
+
+.btn-signin-ride {
+  background-color: #ffa500; /* Orange color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-signin-ride:hover {
+  background-color: black;
+  color: white;
+}
+
+.btn-signin-offer {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-signin-offer:hover {
+  background-color: #ffa500; /* Orange color */
+  color: white;
+}
+
+.images-section {
+  max-width: 45%;
+}
+
+.image-wrapper {
+  background-color: #ffa500; /* Same background color as the main section */
+  border-radius: 50%;
+  padding: 20px; /* Reduced padding for smaller border size */
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.main-content {
+  text-align: center;
+  padding: 2rem;
+}
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  position:relative;
+  text-align: center;
+}
+
+.heading::after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 4px;
+  background-color: #f9a825; /* Yellow underline */
+  margin: 0.5rem auto;
+}
+
+.tabs1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.tab {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #f9a825;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tab + .tab {
+  margin-left: 1rem;
+  background-color: #f0f0f0;
+  color: black;
+}
+
+.tab.active {
+  background-color: #f9a825;
+  color: white;
+}
+
+.tab.inactive {
+  background-color: white;
+  color: #f9a825;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.feature {
+  width: 200px;
+  text-align: center;
+}
+
+.feature img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1rem;
+  border-radius: 50%; /* Ensure images are round */
+}
+
+.feature h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.feature p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6; /* Add line-height for more space between lines */
+}
+
+.changing-text-section {
+  width: 80%;
+  padding: 25px;
+  background-color: #fff7e6;
+  margin: 0 auto;
+}
+
+.shareride-title {
+  font-size: 36px;
+  text-align: center;
+}
+
+.help-move-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.changing-text {
+  color: #ff8000;
+}
+
+.quote {
+  font-size: 18px;
+  color: #555;
+  margin-top: 20px;
+  line-height: 1.6;
+  text-align: center;
+}

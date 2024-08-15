@@ -1,0 +1,106 @@
+.home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.home::before{
+    content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-image: url('https://media.istockphoto.com/id/1365370397/photo/november-20-2021-uae-dubai-tourist-with-a-suitcase-stops-a-taxi-in-dubai.jpg?s=612x612&w=0&k=20&c=klqBcCZ9AEPWIHEiPsbTvdRi7FhPCp7X-y8Mzz3ILWo=');
+   background-size: cover;
+   background-position: center;
+   opacity: 1.9;
+   z-index: 0;
+   
+   margin-top: 60px;
+}
+
+.container1 {
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+.content1 {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    flex: 1;
+}
+
+.title {
+    font-size: 3em;
+    margin: 0;
+    font-weight: bold;
+    position: relative;
+    display: inline-block; 
+}
+
+.title::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: red;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+.description {
+    margin-top: 40px;
+    font-size: 1.2em;
+    color: white;
+    font-weight: 600;
+}
+
+.buttons {
+    margin-top: 40px;
+}
+
+.action-button {
+    background-color: #ff8000;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.action-button:hover {
+    background-color: #e67300;
+}
+
+.hov {
+    color: white;
+}
+
+.hov a{
+    color: white;
+    text-decoration: none;
+}
+
+.hov a:hover {
+    color: #ff8000;
+}
+.profile
+{
+    max-height: 30px;
+}

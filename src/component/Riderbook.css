@@ -1,0 +1,105 @@
+
+.hero {
+  background: url('https://static.vecteezy.com/system/resources/previews/028/576/262/non_2x/car-on-river-bridge-computer-wallpaper-in-hd-vector.jpg') no-repeat center center;
+  background-size: cover;
+  padding: 175px 0;
+  color: #fff;
+  position: relative;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-top: -10px; /* Pull the search box up */
+  position: relative;
+  z-index: 1;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 60%;
+}
+
+.search-box input,
+.search-box button,
+.search-box .passenger-selector {
+  margin: 0 5px;
+}
+
+.search-box input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  flex: 1;
+}
+
+.search-box .passenger-selector {
+  display: flex;
+  align-items: center;
+}
+
+.search-box .passenger-selector label {
+  margin-right: 10px;
+}
+
+.search-box .passenger-control {
+  display: flex;
+  align-items: center;
+}
+
+.search-box .passenger-control button {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+  cursor: pointer;
+}
+
+.search-box .passenger-control span {
+  padding: 0 10px;
+}
+
+.search-box .search-button {
+  padding: 10px 20px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 0 20px; /* Adjusted padding to account for the search box */
+  background: #f9f9f9;
+}
+
+.info-item {
+  max-width: 300px;
+}
+
+.info-item h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.info-item p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.7rem;
+}
